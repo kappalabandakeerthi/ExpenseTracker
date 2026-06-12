@@ -18,7 +18,7 @@ import java.time.LocalDate;
 import java.time.temporal.WeekFields;
 import java.util.*;
 public class ExpenseTrackerApp extends Application {
-    private static final String CSV_PATH = "C:\\Users\\shiva\\OneDrive\\Documents\\Desktop\\Expense_tracker_app\\expenses.csv";
+    private static final String CSV_PATH = "expenses.csv";
 
     // ---------------- DATA ----------------
     private final ObservableList<Transaction> transactions = FXCollections.observableArrayList();
@@ -782,3 +782,8 @@ public class ExpenseTrackerApp extends Application {
 // java --module-path "C:\Program
 // Files\Java\javafx-sdk-17.0.17\lib"--add-modules javafx.controls,javafx.fxml
 // -cp bin ExpenseTrackerApp
+
+
+//CMDS TO RUN
+//javac --module-path "C:\javafx-sdk\javafx-sdk-17.0.19\lib" --add-modules javafx.controls,javafx.fxml -d bin src\ExpenseTrackerApp.java
+//java --module-path "C:\javafx-sdk\javafx-sdk-17.0.19\lib" --add-modules javafx.controls,javafx.fxml -cp bin ExpenseTrackerApp
